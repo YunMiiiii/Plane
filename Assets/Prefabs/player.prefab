@@ -15,7 +15,6 @@ GameObject:
   - component: {fileID: 1092545672514327913}
   - component: {fileID: -6371020472100940627}
   - component: {fileID: -9169480155277228173}
-  - component: {fileID: -3833059174067375928}
   m_Layer: 0
   m_Name: player
   m_TagString: Player
@@ -31,13 +30,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7783734070087565251}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071064, w: 0.7071072}
+  m_LocalPosition: {x: -0.09132363, y: 0.09132356, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!33 &6150620153168890814
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -161,26 +160,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3773503102ecd09499c1af91c850ca62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  skillLevel: 0
   Bullet: {fileID: 4913161241901025893, guid: 51457b3ecbc589a4b9066ab3db72bf84, type: 3}
-  shotPos: {fileID: 4464807038527880351}
---- !u!65 &-3833059174067375928
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7783734070087565251}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}

@@ -6,7 +6,7 @@ public class Bullet : MonoBehaviour
 {
     public float speed = 1.0f;
     public Vector3 dir = Vector3.up;
-
+    public GameObject bulletExplosion;
     // Update is called once per frame
     void Update()
     {
@@ -21,6 +21,9 @@ public class Bullet : MonoBehaviour
             Destroy(gameObject);
 
             Destroy(other.gameObject);
+            GameObject bulletExplosionGO = Instantiate(bulletExplosion);
+            bulletExplosionGO.transform.position = transform.position;
+
         }
     }
 }
