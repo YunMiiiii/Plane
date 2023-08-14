@@ -2,9 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 //player이동
+//player hp생성
 public class playerMove : MonoBehaviour
 {
-    public float speed = 5;  
+    public float speed = 5;
+    public int hp = 5;
     void Update()
     {
         float h = Input.GetAxis("Horizontal");
