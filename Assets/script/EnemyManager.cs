@@ -24,7 +24,7 @@ public class EnemyManager : MonoBehaviour
     {
         //현재 시간이 흐른다
         currentTIme += Time.deltaTime;
-        print("currentTime" + currentTIme);
+        //print("currentTime" + currentTIme);
 
         if (currentTIme > createTime)
         {

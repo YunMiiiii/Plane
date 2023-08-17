@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -6371020472100940627}
   - component: {fileID: 1365590047819639566}
   - component: {fileID: 7225468776929602610}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -149,6 +149,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   hp: 5
+  joystick: {fileID: 0}
 --- !u!114 &7225468776929602610
 MonoBehaviour:
   m_ObjectHideFlags: 0

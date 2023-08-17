@@ -22,7 +22,7 @@ public class Enemy : MonoBehaviour
     
     void Update()
     {
-
+        transform.Translate(dir * speed * Time.deltaTime);
     }
     private void OnCollisionEnter(Collision otherObject)
     {
